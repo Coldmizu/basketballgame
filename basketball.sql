@@ -1,0 +1,31 @@
+CREATE TABLE USER
+(
+   id INT PRIMARY KEY,
+   username VARCHAR(20) NOT NULL,
+   PASSWORD VARCHAR(20) NOT NULL,
+   email VARCHAR(20) NOT NULL,
+   phonenum VARCHAR(20),
+   STATUS CHAR(1)
+)
+
+CREATE TABLE judges
+(
+  id INT PRIMARY KEY,
+  height FLOAT,
+  weight FLOAT,
+  gender CHAR(2),
+  NAME VARCHAR(20) NOT NULL,
+  LEVEL VARCHAR(20),
+  SESSION INT
+)
+
+CREATE TABLE MATCH
+(
+  id INT PRIMARY KEY,
+  site VARCHAR(50),
+  host_team VARCHAR(50),
+  guest_team VARCHAR(50),
+  TIME DATE,
+  
+)
+
