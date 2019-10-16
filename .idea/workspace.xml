@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94f49a3d-1213-4d7b-9c7a-8f972cda636f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basketballCS_dao/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basketballCS_domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basketballCS_service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basketballCS_utils/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basketballCS_web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basketball.sql" beforeDir="false" afterPath="$PROJECT_DIR$/basketball.sql" afterDir="false" />
-    </list>
+    <list default="true" id="94f49a3d-1213-4d7b-9c7a-8f972cda636f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/basketballCS_domain/target/" />
     <ignored path="$PROJECT_DIR$/basketballCS_utils/target/" />
     <ignored path="$PROJECT_DIR$/basketballCS_service/target/" />
@@ -70,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
     <option name="y" value="-5" />
     <option name="width" value="1380" />
@@ -81,14 +74,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="篮球赛事系统" type="b2602c69:ProjectViewProjectNode" />
               <item name="篮球赛事系统" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="篮球赛事系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="篮球赛事系统" type="462c0819:PsiDirectoryNode" />
+              <item name="basketballCS_domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="篮球赛事系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="篮球赛事系统" type="462c0819:PsiDirectoryNode" />
+              <item name="basketballCS_domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="篮球赛事系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="篮球赛事系统" type="462c0819:PsiDirectoryNode" />
+              <item name="basketballCS_domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,16 +147,17 @@
       <workItem from="1571229576216" duration="52000" />
       <workItem from="1571229661508" duration="708000" />
       <workItem from="1571230380726" duration="448000" />
+      <workItem from="1571230940606" duration="765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2077000" />
+    <option name="totallyTimeSpent" value="2842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27345845" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2774799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
