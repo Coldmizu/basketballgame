@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="basketballCS_web:war">
+    <output-path>$PROJECT_DIR$/basketballCS_web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>basketballCS_web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="basketballCS_web.war">
+      <element id="artifact" artifact-name="basketballCS_web:war exploded" />
+    </root>
+  </artifact>
+</component>

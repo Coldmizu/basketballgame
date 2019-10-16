@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/basketballCS_dao/basketballCS_dao.iml" filepath="$PROJECT_DIR$/basketballCS_dao/basketballCS_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basketballCS_domain/basketballCS_domain.iml" filepath="$PROJECT_DIR$/basketballCS_domain/basketballCS_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basketballCS_service/basketballCS_service.iml" filepath="$PROJECT_DIR$/basketballCS_service/basketballCS_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basketballCS_utils/basketballCS_utils.iml" filepath="$PROJECT_DIR$/basketballCS_utils/basketballCS_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basketballCS_web/basketballCS_web.iml" filepath="$PROJECT_DIR$/basketballCS_web/basketballCS_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/篮球赛事系统.iml" filepath="$PROJECT_DIR$/.idea/篮球赛事系统.iml" />
+    </modules>
+  </component>
+</project>

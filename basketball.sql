@@ -8,7 +8,7 @@ CREATE TABLE USER           #用户
    STATUS CHAR(1)             #用户权限
 );
 
-CREATE TABLE judge      #裁判
+CREATE TABLE Judge      #裁判
 (
   id INT PRIMARY KEY,
   height FLOAT NOT NULL,
@@ -19,7 +19,7 @@ CREATE TABLE judge      #裁判
   session_num INT                    #吹罚场次
 );
 
-CREATE TABLE player    #球员
+CREATE TABLE Player    #球员
 (
   id INT PRIMARY KEY,
   number INT NOT NULL,
@@ -30,14 +30,14 @@ CREATE TABLE player    #球员
   role VARCHAR(5)           #司职位置
 );
 
-CREATE TABLE scoring_table_member #记录台人员
+CREATE TABLE Stenographer #记录台人员
 (
    id INT PRIMARY KEY,
    NAME VARCHAR(30) NOT NULL,
    phonenumber VARCHAR(15) NOT NULL
 );
 
-CREATE TABLE site   #地点表
+CREATE TABLE Site   #地点表
 (
    id INT PRIMARY KEY,
    NAME VARCHAR(50) NOT NULL,          
@@ -46,7 +46,7 @@ CREATE TABLE site   #地点表
    
 );
 
-CREATE TABLE coach     #教练
+CREATE TABLE Coach     #教练
 (
    id INT PRIMARY KEY,
    NAME VARCHAR(30) NOT NULL,
@@ -55,21 +55,13 @@ CREATE TABLE coach     #教练
    team_id INT
 );
 
-CREATE TABLE sponsor   #赞助商
+CREATE TABLE Sponsor   #赞助商
 (
    id INT PRIMARY KEY,
    NAME VARCHAR(20) NOT NULL	
 );
 
-CREATE TABLE team_player
-(
-   team_id INT,
-   player_id INT,
-   
-   FOREIGN KEY(team_id) REFERENCES team(id),
-   FOREIGN KEY(player_id) REFERENCES player(id)
-);
-CREATE TABLE team     #队伍
+CREATE TABLE Team     #队伍
 (
    id INT PRIMARY KEY,
    NAME VARCHAR(50) NOT NULL,
@@ -77,14 +69,12 @@ CREATE TABLE team     #队伍
    captain_id INT,      #队长id
    homecourt_id INT,    #主场地点id
    
-   FOREIGN KEY(coach_id) REFERENCES coach(id),
-   FOREIGN KEY(homecourt_id) REFERENCES site(id),
-   FOREIGN KEY(captain_id) REFERENCES player(id),
+   FOREIGN KEY(coach_id) REFERENCES Coach(id),
+   FOREIGN KEY(homecourt_id) REFERENCES Site(id),
+   FOREIGN KEY(captain_id) REFERENCES Player(id)
 );
-ALTER TABLE team
-ADD CONSTRAINT captain_player FOREIGN KEY (captain_id)REFERENCES player(id)
 
-CREATE TABLE competition        #比赛
+CREATE TABLE Competition        #比赛
 (
   id INT PRIMARY KEY,
   site_id INT NOT NULL,                  #场地
@@ -93,46 +83,55 @@ CREATE TABLE competition        #比赛
   starttime DATE NOT NULL,           #比赛开始时间
   endtime DATE,                      #比赛结束时间
   score_teamA VARCHAR(10) DEFAULT '0',
-  score_teamB VARCHAR(10) DEFAULT '0'
+  score_teamB VARCHAR(10) DEFAULT '0',
   
-  FOREIGN KEY(site_id) REFERENCES site(id),
-  FOREIGN KEY(host_team_id) REFERENCES team(id),
-  FOREIGN KEY(guest_team_id) REFERENCES team(id)
+  FOREIGN KEY(site_id) REFERENCES Site(id),
+  FOREIGN KEY(host_team_id) REFERENCES Team(id),
+  FOREIGN KEY(guest_team_id) REFERENCES Team(id)
 );
 
 #-------------------------------------------一对多、多对多表
-CREATE TABLE competition_judges
+
+CREATE TABLE Team_Player
+(
+   team_id INT,
+   player_id INT,
+   
+   FOREIGN KEY(team_id) REFERENCES Team(id),
+   FOREIGN KEY(player_id) REFERENCES Player(id)
+);
+CREATE TABLE Competition_Judge
 (
   competition_id INT,
   judge_id INT,
   
-  FOREIGN KEY(competition_id) REFERENCES competition(id),
-  FOREIGN KEY(judge_id) REFERENCES judge(id)
+  FOREIGN KEY(competition_id) REFERENCES Competition(id),
+  FOREIGN KEY(judge_id) REFERENCES Judge(id)
 );
 
-CREATE TABLE competition_scoring_table
+CREATE TABLE Competition_Stenographer
 (
   competition_id INT,
-  scoring_table_id INT,
+  stenographer_id INT,
   
-  FOREIGN KEY(competition_id) REFERENCES competition(id),
-  FOREIGN KEY(scoring_table_id) REFERENCES scoring_table_member(id)
+  FOREIGN KEY(competition_id) REFERENCES Competition(id),
+  FOREIGN KEY(stenographer_id) REFERENCES Stenographer(id)
 );
 
-CREATE TABLE competition_sponsor
+CREATE TABLE Competition_Sponsor
 (
   competition_id INT,
   sponsor_id INT,
   
-  FOREIGN KEY(competition_id) REFERENCES competition(id),
-  FOREIGN KEY(sponsor_id) REFERENCES sponsor(id)
+  FOREIGN KEY(competition_id) REFERENCES Competition(id),
+  FOREIGN KEY(sponsor_id) REFERENCES Sponsor(id)
 );
 
-CREATE TABLE player_sponsor
+CREATE TABLE Player_Sponsor
 (
     player_id INT,
     sponsor_id INT,
     
-    FOREIGN KEY(player_id) REFERENCES player(id),
-    FOREIGN KEY(sponsor_id) REFERENCES sponsor(id)
+    FOREIGN KEY(player_id) REFERENCES Player(id),
+    FOREIGN KEY(sponsor_id) REFERENCES Sponsor(id)
 )
