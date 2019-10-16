@@ -88,6 +88,8 @@ CREATE TABLE competition        #比赛
   host_team_id INT NOT NULL,    #主队名
   guest_team_id INT NOT NULL,   #客队名
   starttime DATE NOT NULL,           #比赛开始时间
+  score_teamA VARCHAR(10) DEFAULT '0',
+  score_teamB VARCHAR(10) DEFAULT '0'
   
   FOREIGN KEY(site_id) REFERENCES site(id),
   FOREIGN KEY(host_team_id) REFERENCES team(id),
