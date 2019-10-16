@@ -74,13 +74,16 @@ CREATE TABLE team     #队伍
    id INT PRIMARY KEY,
    NAME VARCHAR(50) NOT NULL,
    coach_id INT NOT NULL,        #教练id
-   sponsor_id INT,      #赞助商
+   captain_id INT,      #队长id
    homecourt_id INT,    #主场地点id
    
    FOREIGN KEY(coach_id) REFERENCES coach(id),
    FOREIGN KEY(homecourt_id) REFERENCES site(id),
-   FOREIGN KEY(sponsor_id) REFERENCES sponsor(id)
+   FOREIGN KEY(captain_id) REFERENCES player(id),
 );
+ALTER TABLE team
+ADD CONSTRAINT captain_player FOREIGN KEY (captain_id)REFERENCES player(id)
+
 CREATE TABLE competition        #比赛
 (
   id INT PRIMARY KEY,
@@ -88,6 +91,7 @@ CREATE TABLE competition        #比赛
   host_team_id INT NOT NULL,    #主队名
   guest_team_id INT NOT NULL,   #客队名
   starttime DATE NOT NULL,           #比赛开始时间
+  endtime DATE,                      #比赛结束时间
   score_teamA VARCHAR(10) DEFAULT '0',
   score_teamB VARCHAR(10) DEFAULT '0'
   
@@ -115,7 +119,7 @@ CREATE TABLE competition_scoring_table
   FOREIGN KEY(scoring_table_id) REFERENCES scoring_table_member(id)
 );
 
-CREATE TABLE competition_sponsor_id
+CREATE TABLE competition_sponsor
 (
   competition_id INT,
   sponsor_id INT,
@@ -123,3 +127,12 @@ CREATE TABLE competition_sponsor_id
   FOREIGN KEY(competition_id) REFERENCES competition(id),
   FOREIGN KEY(sponsor_id) REFERENCES sponsor(id)
 );
+
+CREATE TABLE player_sponsor
+(
+    player_id INT,
+    sponsor_id INT,
+    
+    FOREIGN KEY(player_id) REFERENCES player(id),
+    FOREIGN KEY(sponsor_id) REFERENCES sponsor(id)
+)
