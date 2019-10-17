@@ -1,4 +1,3 @@
-USE basketball;
 CREATE TABLE USER           #用户
 (
    id INT PRIMARY KEY,
