@@ -6,10 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="篮球赛事系统" />
         <module name="basketballCS_web" />
+        <module name="basketballCS_domain" />
         <module name="basketballCS_service" />
         <module name="basketballCS_utils" />
-        <module name="basketballCS_domain" />
         <module name="basketballCS_dao" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="basketballCS_service" target="1.5" />
       <module name="basketballCS_utils" target="1.5" />
       <module name="basketballCS_web" target="1.7" />
+      <module name="篮球赛事系统" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
