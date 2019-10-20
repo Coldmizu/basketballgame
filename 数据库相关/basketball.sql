@@ -89,6 +89,16 @@ CREATE TABLE Competition        #比赛
   FOREIGN KEY(host_team_id) REFERENCES Team(id),
   FOREIGN KEY(guest_team_id) REFERENCES Team(id)
 );
+CREATE TABLE usermessage     #实名认证后获得一级管理员权限能够提交加入球队的申请
+(
+  id INT PRIMARY KEY,
+  NAME VARCHAR(30) NOT NULL,#真实姓名
+  id_number VARCHAR(20) NOT NULL UNIQUE,#身份证号
+  user_id INT,  #与id相关联
+  
+  FOREIGN KEY(user_id) REFERENCES USER(id)
+);
+
 
 #-------------------------------------------一对多、多对多表
 
@@ -134,4 +144,22 @@ CREATE TABLE Player_Sponsor
     
     FOREIGN KEY(player_id) REFERENCES Player(id),
     FOREIGN KEY(sponsor_id) REFERENCES Sponsor(id)
+);
+
+CREATE TABLE Team_Sponsor
+(
+    team_id INT,
+    sponsor_id INT,
+    
+    FOREIGN KEY(team_id) REFERENCES Team(id),
+    FOREIGN KEY(sponsor_id) REFERENCES Sponsor(id)
+);
+
+CREATE TABLE user_team
+(
+    user_id INT,
+    team_id INT,
+    
+    FOREIGN KEY(user_id) REFERENCES USER(id),
+    FOREIGN KEY(team_id) REFERENCES Team(id)
 )
