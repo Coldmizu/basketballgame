@@ -27,14 +27,14 @@ CREATE TABLE Player    #球员
   height FLOAT NOT NULL,
   weight FLOAT NOT NULL,
   gender CHAR(2) NOT NULL,  
-  role VARCHAR(5)           #司职位置
+  role VARCHAR(10)           #司职位置
 );
 
 CREATE TABLE Stenographer #记录台人员
 (
    id INT PRIMARY KEY,
    NAME VARCHAR(30) NOT NULL,
-   phonenumber VARCHAR(15) NOT NULL
+   phonenum VARCHAR(15) NOT NULL
 );
 
 CREATE TABLE Site   #地点表
