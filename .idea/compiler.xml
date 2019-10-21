@@ -20,7 +20,7 @@
       <module name="basketballCS_service" target="1.5" />
       <module name="basketballCS_utils" target="1.5" />
       <module name="basketballCS_web" target="1.7" />
-      <module name="篮球赛事系统" target="1.5" />
+      <module name="篮球赛事系统" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
