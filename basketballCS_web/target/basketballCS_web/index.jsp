@@ -3,6 +3,6 @@
 <html>
 <body>
 <h2>Hello World!</h2>
-<jsp:forward page="BKCS_views/hello.html"></jsp:forward>
+
 </body>
 </html>

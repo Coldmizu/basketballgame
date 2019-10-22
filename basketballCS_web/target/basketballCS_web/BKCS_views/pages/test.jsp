@@ -24,7 +24,5 @@ To change this template use File | Settings | File Templates.
         <jsp:include page="admin-index.jsp"></jsp:include>
         <!--底部导航栏-->
         <jsp:include page="/BKCS_views/modules/admin-footer/admin-footer.jsp"></jsp:include>
-
-
 </body>
 </html>

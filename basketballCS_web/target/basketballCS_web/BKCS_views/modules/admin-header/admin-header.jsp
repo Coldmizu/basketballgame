@@ -4,7 +4,7 @@
 
 
     <!-- Logo -->
-    <a href="all-admin-index.html" class="logo">
+    <a href="all-admin-index.jsp" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini"><b>篮球系统</b></span>
         <!-- logo for regular state and mobile devices -->

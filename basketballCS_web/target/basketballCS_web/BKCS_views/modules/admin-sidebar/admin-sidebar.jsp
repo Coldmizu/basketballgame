@@ -10,7 +10,7 @@
                      class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
-                <p>xxx</p>
+                <p>mizu</p>
                 <a href="#"><i class="fa fa-circle text-success"></i> 在线</a>
             </div>
         </div>
@@ -22,51 +22,74 @@
                     href="${pageContext.request.contextPath}/BKCS_views/pages/main.jsp"><i
                     class="fa fa-dashboard"></i> <span>首页</span></a></li>
 
-            <li class="treeview"><a href="#"> <i class="fa fa-cogs"></i>
+            <li class="treeview"><a href="#"> <i class="fa fa-table"></i>
+                <span>查询</span> <span class="pull-right-container"> <i
+                        class="fa fa-angle-left pull-right"></i>
+				</span>
+
+
+            </a>
+                <ul class="treeview-menu">
+
+                    <li class="system-setting"><a
+                            href="${pageContext.request.contextPath}/SearchAll/Team_findAll"> <i
+                            class="fa fa-circle-o"></i> 球队查询
+                    </a></li>
+                    <li class="system-setting"><a
+                            href="${pageContext.request.contextPath}/SearchAll/Player_findAll"> <i
+                            class="fa fa-circle-o"></i> 球员查询
+                    </a></li>
+                    <li class="system-setting"><a
+                            href="${pageContext.request.contextPath}/SearchAll/Coach_findAll">
+                        <i class="fa fa-circle-o"></i> 教练查询
+                    </a></li>
+                    <li class="system-setting"><a
+                        href="${pageContext.request.contextPath}/SearchAll/Judges_findAll"> <i
+                        class="fa fa-circle-o"></i> 裁判查询
+                    </a></li>
+                    <li class="system-setting"><a
+                            href="${pageContext.request.contextPath}/SearchAll/Myteam_findAll"> <i
+                            class="fa fa-circle-o"></i> 我的球队
+                    </a></li>
+                    
+                </ul></li>
+            <li class="treeview"><a href="#"> <i class="fa fa-cog"></i>
+                <span>管理</span> <span class="pull-right-container"> <i
+                        class="fa fa-angle-left pull-right"></i>
+				</span>
+            </a>
+                <ul class="treeview-menu">
+
+                    <li class="system-setting"><a
+                            href="${pageContext.request.contextPath}/Manage/Stenographer_manage">
+                        <i class="fa fa-circle-o"></i> 控制台人员管理
+                    </a></li>
+                    <li class="system-setting"><a
+                            href="${pageContext.request.contextPath}/Manage/Competition_manage"> <i
+                            class="fa fa-circle-o"></i> 比赛管理
+                    </a></li>
+                    <li class="system-setting"><a
+                        href="${pageContext.request.contextPath}/Manage/Site_manage"> <i
+                        class="fa fa-circle-o"></i> 球场管理
+                    </a></li>
+                    <li class="system-setting"><a
+                        href="${pageContext.request.contextPath}/Manage/Sponsor_manage"> <i
+                        class="fa fa-circle-o"></i> 赞助商管理
+                    </a></li>
+                </ul></li>
+            <li class="treeview"><a href="#">
+                <i class="fa fa-cog"></i>
                 <span>系统管理</span> <span class="pull-right-container"> <i
                         class="fa fa-angle-left pull-right"></i>
-				</span>
-
-
+                </span>
             </a>
-                <ul class="treeview-menu">
+            <ul class="treeview-menu">
 
-                    <li class="system-setting"><a
-                            href="${pageContext.request.contextPath}/user/findAll.do"> <i
-                            class="fa fa-circle-o"></i> 用户管理
-                    </a></li>
-                    <li class="system-setting"><a
-                            href="${pageContext.request.contextPath}/role/findAll.do"> <i
-                            class="fa fa-circle-o"></i> 角色管理
-                    </a></li>
-                    <li class="system-setting"><a
-                            href="${pageContext.request.contextPath}/permission/findAll.do">
-                        <i class="fa fa-circle-o"></i> 资源权限管理
-                    </a></li>
-                    <li class="system-setting"><a
-                            href="${pageContext.request.contextPath}/sysLog/findAll.do"> <i
-                            class="fa fa-circle-o"></i> 访问日志
-                    </a></li>
-                </ul></li>
-            <li class="treeview"><a href="#"> <i class="fa fa-cube"></i>
-                <span>基础数据</span> <span class="pull-right-container"> <i
-                        class="fa fa-angle-left pull-right"></i>
-				</span>
-            </a>
-                <ul class="treeview-menu">
-
-                    <li class="system-setting"><a
-                            href="${pageContext.request.contextPath}/product/findAll.do">
-                        <i class="fa fa-circle-o"></i> 产品管理
-                    </a></li>
-                    <li class="system-setting"><a
-                            href="${pageContext.request.contextPath}/orders/findAll.do?page=1&size=4"> <i
-                            class="fa fa-circle-o"></i> 订单管理
-                    </a></li>
-
-                </ul></li>
-
-        </ul>
+                <li class="system-setting"><a
+                        href="${pageContext.request.contextPath}/Manage/UserRole_manage">
+                    <i class="fa fa-circle-o"></i> 用户权限管理
+                </a></li>
+            </ul></li>
     </section>
     <!-- /.sidebar -->
 </aside>

@@ -7,14 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94f49a3d-1213-4d7b-9c7a-8f972cda636f" name="Default Changelist" comment="使用adminlte后台模板，添加简单案例">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/篮球赛事系统.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/篮球赛事系统.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basketballCS_web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/basketballCS_web/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/文本/1+系统需求分析.doc" beforeDir="false" afterPath="$PROJECT_DIR$/文本/1+系统需求分析.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/文本/2+概念结构设计.doc" beforeDir="false" afterPath="$PROJECT_DIR$/文本/2+概念结构设计.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/modules/admin-header/admin-header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/modules/admin-header/admin-header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/modules/admin-sidebar/admin-sidebar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/modules/admin-sidebar/admin-sidebar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/modules/admin-sidebar/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/pages/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/pages/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketballCS_web/target/basketballCS_web.war" beforeDir="false" afterPath="$PROJECT_DIR$/basketballCS_web/target/basketballCS_web.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketballCS_web/target/basketballCS_web/BKCS_views/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketballCS_web/target/basketballCS_web/BKCS_views/modules/admin-header/admin-header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/basketballCS_web/target/basketballCS_web/BKCS_views/modules/admin-header/admin-header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketballCS_web/target/basketballCS_web/BKCS_views/modules/admin-sidebar/admin-sidebar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/basketballCS_web/target/basketballCS_web/BKCS_views/modules/admin-sidebar/admin-sidebar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketballCS_web/target/basketballCS_web/BKCS_views/pages/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/basketballCS_web/target/basketballCS_web/BKCS_views/pages/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketballCS_web/target/basketballCS_web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/basketballCS_web/target/basketballCS_web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/文本/后台整体功能简述.docx" beforeDir="false" afterPath="$PROJECT_DIR$/文本/后台整体功能简述.docx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/basketballCS_domain/target/" />
@@ -37,17 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/pages/test.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basketballCS_web/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="399">
+              <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -67,6 +61,7 @@
     <findStrings>
       <find>../</find>
       <find>{pageContext.request.contextPath}/</find>
+      <find>html</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,10 +104,10 @@
         <option value="$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/pages/admin-index.jsp" />
         <option value="$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/modules/admin-sidebar/admin-sidebar.jsp" />
         <option value="$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/modules/admin-meta/admin-meta.jsp" />
-        <option value="$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/modules/admin-header/admin-header.jsp" />
-        <option value="$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/pages/test.jsp" />
         <option value="$PROJECT_DIR$/basketballCS_web/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/hello.html" />
+        <option value="$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/modules/admin-header/admin-header.jsp" />
+        <option value="$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/pages/test.jsp" />
       </list>
     </option>
   </component>
@@ -147,9 +142,85 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="篮球赛事系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="篮球赛事系统" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="篮球赛事系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="篮球赛事系统" type="462c0819:PsiDirectoryNode" />
+              <item name="basketballCS_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="篮球赛事系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="篮球赛事系统" type="462c0819:PsiDirectoryNode" />
+              <item name="basketballCS_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="篮球赛事系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="篮球赛事系统" type="462c0819:PsiDirectoryNode" />
+              <item name="basketballCS_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="篮球赛事系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="篮球赛事系统" type="462c0819:PsiDirectoryNode" />
+              <item name="basketballCS_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="篮球赛事系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="篮球赛事系统" type="462c0819:PsiDirectoryNode" />
+              <item name="basketballCS_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="BKCS_views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="篮球赛事系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="篮球赛事系统" type="462c0819:PsiDirectoryNode" />
+              <item name="basketballCS_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="BKCS_views" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="篮球赛事系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="篮球赛事系统" type="462c0819:PsiDirectoryNode" />
+              <item name="basketballCS_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="BKCS_views" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="admin-header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="篮球赛事系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="篮球赛事系统" type="462c0819:PsiDirectoryNode" />
+              <item name="basketballCS_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="BKCS_views" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -452,6 +523,9 @@
       <workItem from="1571633099209" duration="1363000" />
       <workItem from="1571643020781" duration="2294000" />
       <workItem from="1571645371425" duration="151000" />
+      <workItem from="1571658170350" duration="642000" />
+      <workItem from="1571663005274" duration="363000" />
+      <workItem from="1571709070538" duration="387000" />
     </task>
     <task id="LOCAL-00001" summary="小改sql语句，完成domain">
       <created>1571552117731</created>
@@ -464,13 +538,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14318000" />
+    <option name="totallyTimeSpent" value="15710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33981234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3538874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -550,13 +624,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="小改sql语句，完成domain" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basketballCS_web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basketballCS_utils/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -958,19 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/modules/admin-header/admin-header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4370">
-          <caret line="37" column="100" selection-start-line="37" selection-start-column="100" selection-end-line="37" selection-end-column="100" />
-          <caret line="50" column="100" selection-start-line="50" selection-start-column="100" selection-end-line="50" selection-end-column="100" />
-          <caret line="62" column="100" selection-start-line="62" selection-start-column="100" selection-end-line="62" selection-end-column="100" />
-          <caret line="74" column="100" selection-start-line="74" selection-start-column="100" selection-end-line="74" selection-end-column="100" />
-          <caret line="86" column="100" selection-start-line="86" selection-start-column="100" selection-end-line="86" selection-end-column="100" />
-          <caret line="224" column="80" selection-start-line="224" selection-start-column="80" selection-end-line="224" selection-end-column="80" />
-          <caret line="230" column="84" selection-start-line="230" selection-start-column="84" selection-end-line="230" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/modules/admin-sidebar/admin-sidebar.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -992,10 +1046,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/pages/all-admin-index.jsp">
+    <entry file="file://$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/hello.html" />
+    <entry file="file://$PROJECT_DIR$/basketballCS_web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="133" column="8" selection-start-line="133" selection-start-column="8" selection-end-line="1056" selection-end-column="10" />
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -1006,17 +1061,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/hello.html">
+    <entry file="file://$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/pages/all-admin-index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="2098">
+          <caret line="133" column="8" selection-start-line="133" selection-start-column="8" selection-end-line="1056" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/modules/admin-header/admin-header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basketballCS_web/src/main/webapp/BKCS_views/pages/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="399">
+          <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
         </state>
       </provider>
     </entry>
